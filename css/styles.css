@@ -43,18 +43,25 @@ table {
 }
 
 /*--*/
+
+body {
+  margin: 0;
+}
+
 .header-top {
   position: fixed;
   display: flex;
   width: 100%;
   background-color: #60fbbf;
+  top: 0;
 }
 
 .pagination {
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
   width: 100%;
+  gap: 10px;
 }
 
 .pagination img {
@@ -77,5 +84,21 @@ ul {
   list-style: none;
 }
 
+section {
+  margin-top: 120px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
+.character-container {
+  width: 200px;
+  padding: 10px;
+  border: gray 0.5px solid;
+  border-radius: 10px;
+}
 
+.character-container img{
+  width: 100%;
+}
